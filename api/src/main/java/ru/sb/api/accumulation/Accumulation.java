@@ -1,7 +1,6 @@
 package ru.sb.api.accumulation;
 
 import javax.persistence.*;
-
 import lombok.*;
 import lombok.experimental.Accessors;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;

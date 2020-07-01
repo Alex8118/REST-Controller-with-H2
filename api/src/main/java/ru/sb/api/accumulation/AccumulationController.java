@@ -4,9 +4,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.web.bind.annotation.*;
-
 import javax.validation.Valid;
-
 import static ru.sb.api.common.Constants.API_PATH;
 
 @RestController
@@ -41,6 +39,5 @@ public class AccumulationController {
                 accumulationService.createAccumulation(accumulation)
         );
     }
-
 
 }
