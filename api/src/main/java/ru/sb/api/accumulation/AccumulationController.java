@@ -20,7 +20,6 @@ public class AccumulationController {
         this.accumulationMapper = accumulationMapper;
     }
 
-
     @GetMapping
     public Page<AccumulationDto> getByOwnerId(
             @PageableDefault(size = 10, page = 0) Pageable pageable,
